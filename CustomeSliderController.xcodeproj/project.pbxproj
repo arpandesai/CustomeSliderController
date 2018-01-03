@@ -13,6 +13,8 @@
 		6B961B931FDA8F59008D9ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B961B921FDA8F59008D9ACE /* Assets.xcassets */; };
 		6B961B961FDA8F59008D9ACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B961B941FDA8F59008D9ACE /* LaunchScreen.storyboard */; };
 		6B961BA11FDA8F59008D9ACE /* CustomeSliderControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B961BA01FDA8F59008D9ACE /* CustomeSliderControllerUITests.swift */; };
+		6B961BAD1FDA9164008D9ACE /* CustomeDiscreteSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B961BAB1FDA9164008D9ACE /* CustomeDiscreteSlider.swift */; };
+		6B961BAE1FDA9164008D9ACE /* CustomeSliderTicksProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B961BAC1FDA9164008D9ACE /* CustomeSliderTicksProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		6B961B9C1FDA8F59008D9ACE /* CustomeSliderControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomeSliderControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B961BA01FDA8F59008D9ACE /* CustomeSliderControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeSliderControllerUITests.swift; sourceTree = "<group>"; };
 		6B961BA21FDA8F59008D9ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B961BAB1FDA9164008D9ACE /* CustomeDiscreteSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeDiscreteSlider.swift; sourceTree = "<group>"; };
+		6B961BAC1FDA9164008D9ACE /* CustomeSliderTicksProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeSliderTicksProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				6B961B8B1FDA8F59008D9ACE /* AppDelegate.swift */,
 				6B961B8D1FDA8F59008D9ACE /* ViewController.swift */,
 				6B961B8F1FDA8F59008D9ACE /* Main.storyboard */,
+				6B961BAC1FDA9164008D9ACE /* CustomeSliderTicksProtocol.swift */,
+				6B961BAB1FDA9164008D9ACE /* CustomeDiscreteSlider.swift */,
 				6B961B921FDA8F59008D9ACE /* Assets.xcassets */,
 				6B961B941FDA8F59008D9ACE /* LaunchScreen.storyboard */,
 				6B961B971FDA8F59008D9ACE /* Info.plist */,
@@ -199,6 +205,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B961BAE1FDA9164008D9ACE /* CustomeSliderTicksProtocol.swift in Sources */,
+				6B961BAD1FDA9164008D9ACE /* CustomeDiscreteSlider.swift in Sources */,
 				6B961B8E1FDA8F59008D9ACE /* ViewController.swift in Sources */,
 				6B961B8C1FDA8F59008D9ACE /* AppDelegate.swift in Sources */,
 			);

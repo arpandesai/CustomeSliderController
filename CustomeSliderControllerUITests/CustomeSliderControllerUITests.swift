@@ -2,7 +2,7 @@
 //  CustomeSliderControllerUITests.swift
 //  CustomeSliderControllerUITests
 //
-//  Created by mahavir on 08/12/17.
+//  Created by Umangi on 08/12/17.
 //  Copyright © 2017 mobileFirst. All rights reserved.
 //
 
